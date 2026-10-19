@@ -1,0 +1,9 @@
+numpy<2
+opencv-python
+mediapipe==0.10.21
+ultralytics
+matplotlib
+imageio
+pillow
+pyyaml
+pytest

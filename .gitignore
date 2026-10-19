@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+runs/
+output/
+
+# Videos, photos and datasets are never committed: they show people (see README)
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+Basketball-Tracking*/
+data/
+
+# Model weights: only the small fine-tuned ball detector is committed
+*.pt
+!models/ball_yolov8n.pt
