@@ -1,5 +1,5 @@
 # Basketball Shot Form Analysis
-
+ 
 Give it a side-on video of a basketball shot. It finds the **set point** (where the ball is loaded, knees bent) and the **release**, measures the elbow, arm, and knee/leg angles at those two moments, and tells you what to fix. The output is a stick-figure drawing and animation, so it shows your form without showing the person.
 
 ![Good vs bad shot, skeleton only](assets/good_vs_bad.png)
