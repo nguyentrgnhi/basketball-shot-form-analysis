@@ -15,6 +15,5 @@ output/
 Basketball-Tracking*/
 data/
 
-# Model weights: only the small fine-tuned ball detector is committed
+# Model weights are never committed by accident (use `git add -f` on purpose)
 *.pt
-!models/ball_yolov8n.pt
